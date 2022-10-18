@@ -1,5 +1,6 @@
 :root {
-  --primary-color: black;
+  --primary-color: #272142;
+  --secondary-color: black;
   --primary-font-family: "Nunito", sans-serif;
   --secondary-font-family: "Fuzzy Bubbles", cursive;
 }
@@ -13,16 +14,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--primary-font-family);
+  font-family: var(--secondary-font-family);
   font-weight: bold;
 }
 h1 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: var(--primary-font-family);
   font-size: 72px;
   line-height: 98px;
 }
 .hero p {
-  font-size: 24px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 35px;
   font-family: var(--secondary-font-family);
@@ -30,4 +32,23 @@ h1 {
 .hero {
   background-color: #d8e7e6;
   text-align: center;
+}
+
+.tagline {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  font-size: 28px;
+  color: var(--primary-color);
 }
