@@ -60,3 +60,15 @@ p {
   font-size: 28px;
   color: var(--primary-color);
 }
+.gyoza {
+  width: 560px;
+  height: 350px;
+  border-radius: 12px;
+  align-self: stretch;
+}
+.pasta {
+  width: 560px;
+  height: 350px;
+  border-radius: 12px;
+  align-self: stretch;
+}
