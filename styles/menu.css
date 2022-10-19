@@ -1,10 +1,11 @@
 :root {
   --primary-color: #272142;
-  --secondary-color: black;
+  --secondary-color: #ffff;
   --primary-font-family: "Nunito", sans-serif;
   --secondary-font-family: "Fuzzy Bubbles", cursive;
 }
 body {
+  margin: 0;
   font-family: var(--primary-font-family);
 }
 
@@ -23,15 +24,22 @@ h1 {
   font-size: 72px;
   line-height: 98px;
 }
-.hero p {
-  font-size: 15px;
+.hero-tagline {
+  font-size: 20px;
   font-weight: bold;
   line-height: 35px;
   font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
 }
 .hero {
-  background-color: #d8e7e6;
+  background-color: #878b95;
+  background-image: url("../images/profile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
   text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .tagline {
