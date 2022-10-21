@@ -118,6 +118,27 @@ h3 {
   width: 360px;
   height: 90px;
 }
+
+.recipe-section-photo {
+  border-radius: 12px;
+  width: 760px;
+  height: 450px;
+  margin-left: 267px;
+  margin-top: 277px;
+}
+h4 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.recipe {
+  text-align: justify;
+  font-size: 14px;
+  color: var(--primary-color);
+  font-family: var(--primary-font-family);
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 52px;
