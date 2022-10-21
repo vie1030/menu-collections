@@ -118,3 +118,12 @@ h3 {
   width: 360px;
   height: 90px;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 52px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+}
