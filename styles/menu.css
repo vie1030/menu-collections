@@ -24,13 +24,7 @@ h1 {
   font-size: 72px;
   line-height: 98px;
 }
-.hero-tagline {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 35px;
-  font-family: var(--secondary-font-family);
-  color: var(--secondary-color);
-}
+
 .hero {
   background-color: #878b95;
   background-image: url("../images/profile.png");
@@ -41,13 +35,34 @@ h1 {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.hero-tagline {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 35px;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
+}
 
-.tagline {
+.container-tagline {
   color: var(--primary-color);
   font-weight: bold;
   font-size: 20px;
   line-height: 35px;
   text-align: center;
+  margin-top: 20px;
+}
+
+.menu-photo {
+  width: 560px;
+  height: 350px;
+  border-radius: 12px;
+  align-self: stretch;
+}
+.about-heading {
+  color: var(--primary-color);
+  text-align: center;
+  top: 126px;
+  font-size: 72px;
 }
 
 h3 {
@@ -56,51 +71,50 @@ h3 {
   font-size: 50px;
   text-align: center;
 }
-p {
-  font-size: 28px;
-  color: var(--primary-color);
-}
-.menu {
-  width: 560px;
-  height: 350px;
-  border-radius: 12px;
-  align-self: stretch;
+
+.about-me {
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
-.about-heading {
-  color: var(--primary-color);
-  text-align: center;
-  top: 126px;
-  font-size: 72px;
+.about-me-content {
+  margin: 30px;
+}
+
+.photo-myself {
+  background-color: #1cc494;
+  border-radius: 12px;
+  margin: 30px;
 }
 .favorite {
   color: var(--primary-color);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 35px;
-  width: 257px;
-  height: 49px;
-  top: 900px;
-  left: 592px;
-  margin-bottom: 30px;
+  font-family: var(--secondary-font-family);
   text-align: center;
+  top: 126px;
+  font-size: 35px;
+  font-weight: bold;
 }
-.recipe-menu {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 30px;
+.food-photo {
+  border-radius: 12px;
   width: 360px;
-  height: 90px;
+  height: 350px;
 }
+
 .menu-name {
   font-family: var(--primary-font-family);
+  color: var(--primary-color);
   font-size: 24px;
   line-height: 33px;
   width: 360px;
   height: 33px;
+  margin-top: 10px;
 }
-.food-name {
-  border-radius: 12px;
+.recipe-menu {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
   width: 360px;
-  height: 350px;
+  height: 90px;
 }
