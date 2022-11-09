@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ed932e;
   --secondary-color: #e86029;
+  --footer-color: #e1ac6f;
   --primary-font-family: "Nunito", sans-serif;
   --secondary-font-family: "Fuzzy Bubbles", cursive;
 }
@@ -166,6 +167,22 @@ nav a:hover,
 nav li.active a {
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
+}
+footer {
+  margin: 60px 0;
+  background-color: var(--footer-color);
+}
+footer .social-links a {
+  color: var(--secondary-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 800px) {
