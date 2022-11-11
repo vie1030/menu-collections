@@ -33,6 +33,25 @@
     <link rel="stylesheet" href="styles/menu.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt=""
+          />
+        </a>
+        <ul class="mt-4">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li class="active"><a href="/recipe.html">Recipes</a></li>
+          <li><a href="/contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <h1 class="about-heading mb-3">Menu Collections</h1>
     <p class="container-tagline">Let's start Cooking!</p>
     <div class="container container-recipe-section">
@@ -57,7 +76,7 @@
 
       <div class="direction mb-5">
         Directions:
-        <p>
+        <p class="direction">
           1 tbsp Active Dry Yeast 1 tbsp Baking Powder 1 tbsp White Sugar 3 tbsp
           Shortening 1/4 cup White Sugar 5 cups All Purpose Flour Warm Water 1
           tbsp Active Dry Yeast 1 tbsp Baking Powder 1 tbsp White Sugar 3 tbsp
@@ -105,6 +124,31 @@
           Shortening 1/4 cup White Sugar 5 cups All Purpose Flour Warm Water
         </p>
       </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <a href="/">
+          <img src="images/logo-footer.png" class="footer-logo" alt="" />
+        </a>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.facebook.com/vie.cool.94" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/vie" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/vilma-santos-0a9706164/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/vie1030" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <p class="coder mb-3">coded by Vie Santos</p>
+      </footer>
     </div>
   </body>
 </html>
